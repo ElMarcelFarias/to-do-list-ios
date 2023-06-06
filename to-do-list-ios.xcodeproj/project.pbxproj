@@ -86,7 +86,6 @@
 				D9250CFF4B951ACDC17900E7 /* Pods-to-do-list-ios.debug.xcconfig */,
 				B9886480E91FA9B232DD6135 /* Pods-to-do-list-ios.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
