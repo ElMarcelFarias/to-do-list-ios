@@ -29,7 +29,7 @@
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="25"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="xTR-mK-xPX" kind="show" id="w6Z-Kq-6kq"/>
+                                    <segue destination="BnX-sd-ekB" kind="show" id="3Ja-mA-A7F"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Desafio App To do List Comece agora:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2a-RZ-Nof">
@@ -55,14 +55,14 @@
             <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
         </scene>
         <!--InitialTasks-->
-        <scene sceneID="OOj-M7-1Oq">
+        <scene sceneID="PKb-Bv-9xh">
             <objects>
-                <viewControllerPlaceholder storyboardName="InitialTasks" id="xTR-mK-xPX" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="7Pa-2L-2P0"/>
+                <viewControllerPlaceholder storyboardName="InitialTasks" id="BnX-sd-ekB" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="8Vi-BF-oFe"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="37H-p5-ujP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PTy-9w-HsC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="544" y="84"/>
+            <point key="canvasLocation" x="709" y="47"/>
         </scene>
     </scenes>
     <resources>

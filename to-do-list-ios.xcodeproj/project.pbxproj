@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		471719702A38DA0E00C0B9B6 /* ListaTarefasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4717196F2A38DA0E00C0B9B6 /* ListaTarefasViewController.swift */; };
+		4742D2452A3B820300E2BC7B /* TarefaTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4742D2442A3B820300E2BC7B /* TarefaTableCell.swift */; };
 		478A62CF2A2E110A00B3EA43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478A62CE2A2E110A00B3EA43 /* AppDelegate.swift */; };
 		478A62D12A2E110A00B3EA43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478A62D02A2E110A00B3EA43 /* SceneDelegate.swift */; };
 		478A62D32A2E110A00B3EA43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478A62D22A2E110A00B3EA43 /* ViewController.swift */; };
@@ -17,12 +19,14 @@
 		47946E042A38BED100BCB7BA /* VazioTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47946E022A38BED100BCB7BA /* VazioTableCell.swift */; };
 		47946E052A38BED100BCB7BA /* VazioTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47946E032A38BED100BCB7BA /* VazioTableCell.xib */; };
 		47E4CFF82A3759DA00A5FD03 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E4CFF72A3759DA00A5FD03 /* LoginController.swift */; };
-		47E4CFFA2A375A2000A5FD03 /* ListaTarefasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E4CFF92A375A2000A5FD03 /* ListaTarefasViewController.swift */; };
 		47E4CFFC2A375AAB00A5FD03 /* GerenciarTarefasTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E4CFFB2A375AAB00A5FD03 /* GerenciarTarefasTableController.swift */; };
+		47FB51F92A38DD68007D551B /* InitialTasks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47FB51F82A38DD68007D551B /* InitialTasks.storyboard */; };
 		B355AB10E034D50F8B0D14A5 /* Pods_to_do_list_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB50E138BC8B7EC6028E27E5 /* Pods_to_do_list_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4717196F2A38DA0E00C0B9B6 /* ListaTarefasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTarefasViewController.swift; sourceTree = "<group>"; };
+		4742D2442A3B820300E2BC7B /* TarefaTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefaTableCell.swift; sourceTree = "<group>"; };
 		478A62CB2A2E110A00B3EA43 /* to-do-list-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "to-do-list-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		478A62CE2A2E110A00B3EA43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		478A62D02A2E110A00B3EA43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,10 +38,9 @@
 		478A62DF2A2E110B00B3EA43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47946E022A38BED100BCB7BA /* VazioTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VazioTableCell.swift; sourceTree = "<group>"; };
 		47946E032A38BED100BCB7BA /* VazioTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VazioTableCell.xib; sourceTree = "<group>"; };
-		47E4CFF22A37594200A5FD03 /* InitialTasks.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InitialTasks.storyboard; sourceTree = "<group>"; };
 		47E4CFF72A3759DA00A5FD03 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
-		47E4CFF92A375A2000A5FD03 /* ListaTarefasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTarefasViewController.swift; sourceTree = "<group>"; };
 		47E4CFFB2A375AAB00A5FD03 /* GerenciarTarefasTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GerenciarTarefasTableController.swift; sourceTree = "<group>"; };
+		47FB51F82A38DD68007D551B /* InitialTasks.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InitialTasks.storyboard; sourceTree = "<group>"; };
 		B9886480E91FA9B232DD6135 /* Pods-to-do-list-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-to-do-list-ios.release.xcconfig"; path = "Target Support Files/Pods-to-do-list-ios/Pods-to-do-list-ios.release.xcconfig"; sourceTree = "<group>"; };
 		CB50E138BC8B7EC6028E27E5 /* Pods_to_do_list_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_to_do_list_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9250CFF4B951ACDC17900E7 /* Pods-to-do-list-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-to-do-list-ios.debug.xcconfig"; path = "Target Support Files/Pods-to-do-list-ios/Pods-to-do-list-ios.debug.xcconfig"; sourceTree = "<group>"; };
@@ -76,7 +79,7 @@
 		478A62CD2A2E110A00B3EA43 /* to-do-list-ios */ = {
 			isa = PBXGroup;
 			children = (
-				47E4CFF32A37594600A5FD03 /* New Group */,
+				47E4CFF32A37594600A5FD03 /* Sources */,
 				478A62CE2A2E110A00B3EA43 /* AppDelegate.swift */,
 				478A62D02A2E110A00B3EA43 /* SceneDelegate.swift */,
 				478A62D22A2E110A00B3EA43 /* ViewController.swift */,
@@ -94,26 +97,27 @@
 			children = (
 				47946E022A38BED100BCB7BA /* VazioTableCell.swift */,
 				47946E032A38BED100BCB7BA /* VazioTableCell.xib */,
+				4742D2442A3B820300E2BC7B /* TarefaTableCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
 		};
-		47E4CFF32A37594600A5FD03 /* New Group */ = {
+		47E4CFF32A37594600A5FD03 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				47E4CFF62A37596300A5FD03 /* View */,
 				47E4CFF52A37595D00A5FD03 /* Model */,
 				47E4CFF42A37595100A5FD03 /* Controller */,
 			);
-			path = "New Group";
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		47E4CFF42A37595100A5FD03 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				47E4CFF72A3759DA00A5FD03 /* LoginController.swift */,
-				47E4CFF92A375A2000A5FD03 /* ListaTarefasViewController.swift */,
 				47E4CFFB2A375AAB00A5FD03 /* GerenciarTarefasTableController.swift */,
+				4717196F2A38DA0E00C0B9B6 /* ListaTarefasViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -129,7 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				47946DFF2A38BE6A00BCB7BA /* Cell */,
-				47E4CFF22A37594200A5FD03 /* InitialTasks.storyboard */,
+				47FB51F82A38DD68007D551B /* InitialTasks.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -211,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47FB51F92A38DD68007D551B /* InitialTasks.storyboard in Resources */,
 				47946E052A38BED100BCB7BA /* VazioTableCell.xib in Resources */,
 				478A62DE2A2E110B00B3EA43 /* LaunchScreen.storyboard in Resources */,
 				478A62DB2A2E110B00B3EA43 /* Assets.xcassets in Resources */,
@@ -268,8 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				47946E042A38BED100BCB7BA /* VazioTableCell.swift in Sources */,
+				4742D2452A3B820300E2BC7B /* TarefaTableCell.swift in Sources */,
 				478A62D32A2E110A00B3EA43 /* ViewController.swift in Sources */,
-				47E4CFFA2A375A2000A5FD03 /* ListaTarefasViewController.swift in Sources */,
+				471719702A38DA0E00C0B9B6 /* ListaTarefasViewController.swift in Sources */,
 				478A62D92A2E110A00B3EA43 /* to_do_list_ios.xcdatamodeld in Sources */,
 				478A62CF2A2E110A00B3EA43 /* AppDelegate.swift in Sources */,
 				478A62D12A2E110A00B3EA43 /* SceneDelegate.swift in Sources */,
