@@ -194,7 +194,7 @@
                                                 <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gfX-H0-s47">
                                                     <rect key="frame" x="20" y="11" width="40" height="40"/>
                                                     <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" image="chevron.backward" catalog="system">
+                                                    <buttonConfiguration key="configuration" style="plain" image="chevron.backward" catalog="system" title=" ">
                                                         <color key="baseForegroundColor" red="0.1176470518" green="0.109803915" blue="0.13725490870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </buttonConfiguration>
                                                 </button>

@@ -17,11 +17,13 @@ class GerenciarTarefasTableController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 0
+        return 1
+        //numeros de sessoes
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
+        return 5
+        //numero de linhas
     }
 
 

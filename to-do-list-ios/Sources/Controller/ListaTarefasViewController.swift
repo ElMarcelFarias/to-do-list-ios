@@ -20,11 +20,21 @@ class ListaTarefasViewController: UIViewController {
         
         self.tableView.delegate = self
         self.tableView.dataSource = self
+        self.registrerNib()
     }
+    
+    //MARK: Private/Public Func
+    
+    private func registrerNib() {
+        self.tableView.register(UINib(nibName: "VazioTableCell", bundle: nil), forCellReuseIdentifier: "VazioTableCell")
+    }
+    
+    
+    
     
     //MARK: Action
     @IBAction func criarNovaTarefa(_ sender: Any) {
-        
+        self.performSegue(withIdentifier: "criarNovaTarefaSegue", sender: nil)
     }
     
     
@@ -34,11 +44,12 @@ class ListaTarefasViewController: UIViewController {
 extension ListaTarefasViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return 4
         //numero de linhas que a tableview vai gerenciar.
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        //let cell: VazioTableCell = tableView.dequeueReusableCell(withIdentifier: "VazioTableCell", for: indexPath) as! VazioTableCell
         let cell: TarefaTableCell = tableView.dequeueReusableCell(withIdentifier: "cellTarefa", for: indexPath) as! TarefaTableCell
         
         return cell
@@ -46,8 +57,15 @@ extension ListaTarefasViewController: UITableViewDataSource, UITableViewDelegate
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        
+        //121
+        //141
         return 121
         //tamanho da celula da tabela
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("indexPath row: \(indexPath.row)")
     }
         
     
